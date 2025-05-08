@@ -7,3 +7,10 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+let authorName = [];
+posts.forEach((curAuthor) => {
+ authorName.push(curAuthor.author);
+  
+})
+console.log(authorName);
